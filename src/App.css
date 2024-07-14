@@ -1,0 +1,108 @@
+/* .App1 {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  margin-left: 160px;
+  margin-top: 100px;
+} */
+
+button {
+  margin-bottom: 10px;
+  background-color: rgb(52, 156, 216);
+}
+
+.table {
+  width: 100%;
+ 
+
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #afcce7;
+}
+.html{
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  color: rgb(5, 5, 5);
+  padding: 15px; 
+  border-radius: 5px; 
+}
+
+.Container{
+  margin-left: 160px;
+  margin-top: 140px;
+}
+
+
+.TextBox{
+  display: flex;
+  margin-left: 370px;
+  width: 150px;
+  margin-top: -22px;
+}
+select {
+  width: 343px;
+  height: 35px;
+  margin-block-end: 10px;
+  margin-top: 10px;
+}
+#search-value {
+  margin-top: -21px;
+  height: 27px;
+}
+
+.MainFilter {
+  background-color: #699bb9;
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 8px; 
+  margin-left: 390px;
+  grid-template-columns: repeat(3, auto) 1fr auto auto; 
+  gap: 10px; 
+  align-items: center; 
+  width: 343px;
+  height: 118px;
+  display: inherit;
+}
+
+.MainFilter input,
+.MainFilter select {
+    padding: 9px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.MainFilter button2 {
+  background-color: #154666; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+.MainFilter button2:hover {
+  background-color: #29a498;
+}
+.MainFilter button3 {
+  background-color: #154666; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-left: 170px;
+}
+
+.MainFilter button3:hover {
+  background-color: #29a498;
+}
+#end-date {
+  margin-left: 82px;
+}
